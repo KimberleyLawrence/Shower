@@ -1,6 +1,12 @@
-.games{
+.game{
   border-radius: 2px;
-  color: yellow;
+  background-color: yellow;
   height: 200px;
   width: 150px;
+  margin: 300px 0;
+  text-align: center;
+  display: inline-block;
+}
+.game_title{
+  margin-top: 100px;
 }
