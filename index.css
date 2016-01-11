@@ -1,15 +1,30 @@
 html{
   background-color: #ffffcc;
 }
+.container{
+  margin: 100px;
+}
+.title{
+  font-family: smoothie shoppe;
+  font-size: 4em;
+  text-align: center;
+  color: #aa80ff;
 
-.game{
+}
+.games{
   border-radius: 2px;
-  background-color: #99ccff;
-  height: 200px;
-  width: 300px;
+  background-color: white;
+  height: 250px;
+  width: 350px;
   text-align: center;
   display: inline-block;
+  border: solid 2px;
+  border-color: #b2b2cc;
+  border-radius: 10px;
+  margin: 100px, auto;
 }
 .game_title{
-  margin-top: 100px;
+  margin-top:150px;
+  font-family: printclearly;
+  font-size: 1.5em;
 }
