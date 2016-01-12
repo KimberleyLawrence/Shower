@@ -1,8 +1,10 @@
 html{
   background-color: #ffffcc;
+  padding: 20%;
 }
 .container{
-  margin: 100px;
+  margin: 30px;
+  text-align: center;
 }
 .title{
   font-family: smoothie shoppe;
@@ -21,10 +23,10 @@ html{
   border: solid 2px;
   border-color: #b2b2cc;
   border-radius: 10px;
-  margin: 100px, auto;
+  margin: 10px;
 }
 .game_title{
-  margin-top:150px;
-  font-family: printclearly;
-  font-size: 1.5em;
+  margin-top:190px;
+  font-family: gillsans;
+  font-size: 1em;
 }
