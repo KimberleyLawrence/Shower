@@ -1,32 +1,69 @@
 html{
-  background-color: #ffffcc;
-  padding: 20%;
+  background-color:#ffffcc;
 }
-.container{
-  margin: 30px;
+.welcome, .intro{
   text-align: center;
+  font-family: noteworthy;
+  font-size: 1em;
+  color:#999999;
 }
 .title{
   font-family: smoothie shoppe;
   font-size: 4em;
   text-align: center;
-  color: #aa80ff;
-
+  color: #d9b3ff;
 }
 .games{
   border-radius: 2px;
   background-color: white;
-  height: 250px;
-  width: 350px;
+  height: 200px;
+  width: 250px;
   text-align: center;
   display: inline-block;
-  border: solid 2px;
-  border-color: #b2b2cc;
+  border: solid 3px;
+  border-color:#999999;
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
+}
+.fa{
+  margin-top: 40px;
 }
 .game_title{
-  margin-top:190px;
-  font-family: gillsans;
+  margin-top:30px;
+  font-family: noteworthy;
   font-size: 1em;
+  color: #999999;
+}
+.row1, .row2, .row3{
+  text-align: center;
+}
+.fa-balance-scale{
+  color:#b3ccff;
+}
+.fa-venus{
+  color:#d9b3ff;
+}
+.fa-mars{
+  color: #d9b3ff;
+}
+.fa-calendar{
+  color:#b3ffe0;
+}
+.fa-clock-o{
+  color:#6698ff;
+}
+.fa-comment-o{
+  color:#b266ff;
+}
+.fa-smile-o{
+  color:#80ffcc;
+}
+.fa-heart-o{
+  color:#3376ff;
+}
+.fa-gift{
+  color:#8c1aff;
+}
+.fa-envelope-o{
+  color:#33ffad;
 }
