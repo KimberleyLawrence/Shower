@@ -1,6 +1,10 @@
 html{
   background-color:#ffffcc;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .welcome, .intro{
   text-align: center;
   font-family: noteworthy;
@@ -12,6 +16,13 @@ html{
   font-size: 4em;
   text-align: center;
   color: #b266ff;
+  margin-top: 10px;
+  letter-spacing: -3px;
+}
+.title_banner{
+  font-family: kgalittleswag;
+  color: #b266ff;
+  font-size: 2em;
 }
 .games{
   border-radius: 2px;
@@ -66,4 +77,15 @@ html{
 }
 .fa-envelope-o{
   color:#33ffad;
+}
+.icon_large{
+  font-size: 2em;
+  text-align: center;
+}
+.contact_details{
+  font-size: 1.5em;
+  color:#b266ff;
+  font-family: noteworthy;
+  text-align: center;
+  margin-top: 10px;
 }
