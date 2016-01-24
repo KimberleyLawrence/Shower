@@ -8,6 +8,12 @@ a{
 .welcome, .intro{
   text-align: center;
   font-family: noteworthy;
+  font-size: 1.2em;
+  color:#737373;
+}
+.game_title{
+  text-align: center;
+  font-family: noteworthy;
   font-size: 1em;
   color:#737373;
 }
