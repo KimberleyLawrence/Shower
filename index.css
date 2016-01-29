@@ -1,6 +1,10 @@
 html{
   background-color:#ffffcc;
 }
+.login_name{
+  float:right;
+  font-family: noteworthy;
+}
 a{
   text-decoration: none;
   color: inherit;
@@ -10,6 +14,7 @@ a{
   font-family: noteworthy;
   font-size: 1.2em;
   color:#737373;
+  float: center;
 }
 .game_title{
   text-align: center;
