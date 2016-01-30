@@ -2,7 +2,7 @@ html{
   background-color:#ffffcc;
 }
 .login_name{
-  float:right;
+  text-align: right;
   font-family: noteworthy;
 }
 a{
