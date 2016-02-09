@@ -4,6 +4,7 @@
   <title> Guess the weight </title>
   <link rel="stylesheet" href="../index.css" /> <!-- ../ goes back in the directory-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
   <div class="icon_large">
@@ -15,6 +16,52 @@
     <div> Add you guess in either the kilogram and gram category or the pound and ounces</div>
     <div> If someone has guessed the same weight before you, you will be unable to submit that weight</div>
     <div> But don't let that stop you, guess a little higher or lower and submit! </div>
+    <input class="metric" id="kg" value="0">
+
+    -----------------
+    <input class="imperial" id="lb" value="0">
+    <input class="imperial" id="oz" value="0">
+    <script type="text/javascript">
+
+
+        $(function () {
+          $('.metric').on('input', function (data){
+            //console.log($('#kg').val());
+            gm=($('#kg').val())*1000;
+            //gm+=parseInt($('#gm').val());
+            oz=gm/28.34;
+
+            o = parseInt(oz % 16);
+            lb = parseInt(oz / 16);
+
+            console.log(
+              'grams = ' + gm + ' oz=' + oz
+              + ' lb=' + lb + ' o=' + o
+            );
+            $('#lb').val(lb);
+            $('#oz').val(o);
+
+          });
+          $('.imperial').on('input', function (data){
+            //console.log($('#kg').val());
+            oz=parseInt($('#lb').val())*16;
+            oz+=parseInt($('#oz').val());
+            gm=oz*28.34;
+
+            //g = parseInt(gm % 1000);
+            kg = (gm / 1000);
+            kg=Math.round( kg * 100) / 100
+
+            //$('#gm').val(g);
+            $('#kg').val(kg);
+
+            console.log(
+              'grams = ' + gm + ' oz=' + oz
+              + ' kg=' + kg 
+            );
+          });
+        });
+    </script>
   </div>
 </body>
 </html>
